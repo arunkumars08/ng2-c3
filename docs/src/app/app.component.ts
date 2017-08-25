@@ -1,10 +1,9 @@
 import {Component} from '@angular/core';
 
 @Component({
-    moduleId: module.id,
     selector: 'demo-app',
-    templateUrl: 'app.component.html',
-    styleUrls: ['app.component.css']
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
     private _data : any;
@@ -192,7 +191,3 @@ export class AppComponent {
         }
     }
 }
-
-
-
-
